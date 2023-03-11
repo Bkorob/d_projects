@@ -16,7 +16,7 @@ tree = mkdir('/', [
     mkfile('hosts'),
 ])
 
-
+# Функция возращает только пусные директории налюбой губтне вложенности
 def find_empty_dir_paths(tree): 
     children = get_children(tree) # получаем список детей для перерменной children
     if len(children) == 0: # терминальное условие: если список пустой, 
