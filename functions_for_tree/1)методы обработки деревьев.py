@@ -1,13 +1,12 @@
-from hexlet import fs
-from copy import deepcopy
+# from hexlet import fs
+# from copy import deepcopy
 
-# сортировка детей через .reverse()
-# tree1 = fs.mkdir('/', [
+# # сортировка детей через .reverse()
+# tree = fs.mkdir('/', [
 #     fs.mkfile('one'),
 #     fs.mkfile('two'),
 #     fs.mkdir('three', [], {'size': 110}),
 # ], {"color": 'red'})
-
 
 # files = fs.get_children(tree1)
 # new_meta = deepcopy(fs.get_meta(tree1))
@@ -57,7 +56,7 @@ from copy import deepcopy
 
 # children = fs.get_children(tree)
 # new_children = list(map(to_upper, children))# обязательно выражать 
-# # через list()
+#  # через list()
 # new_meta = deepcopy(fs.get_meta(tree)) # ОБЯЗАТЕЛЬНО 
 # # ЗАВОДИТЬ НОВУЮ meta
 
