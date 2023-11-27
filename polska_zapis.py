@@ -20,3 +20,17 @@ def rpn_calc(rpn):
             
             
 print(rpn_calc([7, 2, 3, '*', '-']))
+
+
+
+Python 3.11.6 (main, Oct  8 2023, 05:06:43) [GCC 13.2.0]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.17.2 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: assert True
+
+In [2]: assert False
+---------------------------------------------------------------------------
+AssertionError                            Traceback (most recent call last)
+Cell In[2], line 1
+----> 1 assert False
