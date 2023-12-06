@@ -18,14 +18,15 @@ class Child(Parent): #класс наследник. имеет все мето�
     
     def inc(self):
         super().inc()
-        self.val += 2
+        return f'{super().get()} столько'
+        
 
 # # gr = Parent()
 # # gr.inc()
 # # print(gr.get())
-# c = Child()
+c = Child()
 
-# c.inc()
-# c.inc()
-# print(c.get())
+c.inc()
+c.inc()
+print(c.inc())
 

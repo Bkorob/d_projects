@@ -21,4 +21,3 @@ class Department:
 vasya = Doctor("Vasya", Department('урология'))
 print(vasya.department.name)
 vasya.add_pacients(Pacient('Xyйло'))
-vasya.
