@@ -1,6 +1,5 @@
 from datetime import datetime
 
-
 def app(environ, start_response):
     time = datetime.now()
     data = bytes(f'The time is {time:%H:%M:%S}', 'utf-8')
@@ -8,4 +7,4 @@ def app(environ, start_response):
         ("Content-Type", "text/plain"),
         ("Content-Length", str(len(data)))
     ])
-    return iter([data])
+    return [data]
