@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flask-lessons"
+version = "0.1.0"
+description = ""
+authors = ["Bkorob <bakatest311@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "flask_lessons"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
