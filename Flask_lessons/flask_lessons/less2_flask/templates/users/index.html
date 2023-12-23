@@ -1,4 +1,15 @@
-<form action="/users">
-    <input type="search" name='term' value="{{ search }}" />
+<form action="{{url_for('user')}}">
+    <input type="search" name='term' />
     <input type="submit" value="Search" />
 </form>
+
+<H1>results</H1>
+<div>
+    <ul>
+        {% for course in search %}
+        <li>
+              {{ course }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>

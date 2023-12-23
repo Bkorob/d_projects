@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+{% if messages %}
+<ul>
+  {% for category, msg in messages %}
+  <li>{{ msg }} : {{ category }}!</li>
+  {% endfor %}
+</ul>
+{% endif %}
+<h1>New user data:</h1>
+  </ul>
+    <li>User name is {{user.name}}</li>
+    <li>User email is {{user.email}}</li>
+    <li>User ID is {{user.id}}</li>
+</ul>
